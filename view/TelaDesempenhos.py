@@ -22,8 +22,8 @@ class TelaDesempenhos:
 
         if not self.graficoAtivado:
             self.graficoAtivado = True
-            fig = plt.figure(figsize=(5, 5), facecolor='silver', num='Tela de Desempenhos')
-            fig.canvas.toolbar.pack_forget()  # remove bar inferior
+            fig = plt.figure(figsize=(5, 4), facecolor='silver', num='Tela de Desempenhos')
+            # fig.canvas.toolbar.pack_forget()  # remove bar inferior
 
         # plt.cla()  # Clear axis
         plt.clf()  # Clear figure
